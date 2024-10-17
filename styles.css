@@ -1,0 +1,61 @@
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  min-height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  text-transform: uppercase;
+  background-color: gray;
+}
+
+h2 {
+text-align: left;
+text-transform: uppercase;
+text-decoration: underline;
+font-family: monospace;
+}
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    font-family: monospace;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid, gray;
+    padding: 1rem;
+}
